@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_background"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="@string/dicodingindonesia"
+        android:paddingTop="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvCodeDicoding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="123 456"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="@string/github"
+        android:paddingTop="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvCodeGithub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="123 456"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_marginTop="8dp"/><TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="@string/line"
+        android:paddingTop="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvCodeLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="123 456"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
